@@ -127,6 +127,10 @@ ul.cities {
     ul.cities {
         column-count: 3;
     }
+
+    .map-sec {
+        margin-top: -240px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -137,6 +141,16 @@ ul.cities {
 
     ul.cities {
         column-count: 2;
+    }
+
+    .map-sec {
+        margin-top: -285px;
+    }
+}
+
+@media (max-width: 575px) {
+    .map-sec {
+        margin-top: -326px;
     }
 }
 
